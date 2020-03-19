@@ -1,0 +1,193 @@
+p {
+	padding-left: 4.2cm;
+	font-size: 1.3em;
+	color: #1a0066;
+	display: flex;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+
+
+h1 {
+	color: #0000e6;
+	padding-left: 10cm;
+	padding-top: 1cm;
+	display: flex;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+h2 {
+	padding-left: 4.2cm;
+	color: #00004d;
+	display: flex;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+
+span {
+	color: yellow;
+	font-style: italic;
+	display: flex;
+}
+/*general html size */
+html {
+	font-size: 1.2em;
+	
+}
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	left: 50%;
+	width: 70%;
+    padding: 12px 20px;
+    margin: 10em;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4em;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #f3843E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 100%;
+    background-color: #f3843E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+	color: #f3843E;
+	font-size: 2em;
+	
+}
+body {
+	color: #000000; 
+	background-color: #0f1424;	
+	display: flex;
+}
+#bg-top {
+  background-color: #f1cd79;
+  top: 13%;
+  bottom: 35%;
+  left: 0%;
+  right: 0%;
+  z-index: -1;
+}
+/* Changes colour of link to webpage colour */
+a { color: inherit; } 
+  
+  
+/*Changes unordered list into square shape next to it */
+ul {
+    list-style-type: square;
+	display: flex;
+}
+
+
+img {
+    border-radius: 8px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 20%;
+	width: 300px;
+	height: 300px;
+	display: flex;
+}
+
+/* Dropdown Button */
+.btn {
+    background-color: #FF5A09;
+    color: white;
+    padding: 22px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	position:fixed;
+	top: 0;
+	left: 0%
+	
+	
+}
+
+/* position the dropdown content */
+.table {
+    position: relative;
+    display: inline-block;
+	position:fixed;
+	top: 6%;
+}
+
+/* Dropdown Content*/
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	position:fixed;
+}
+
+/* Links inside the dropdown */
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.content a:hover {background-color: #FF5A09}
+
+/* Show the dropdown menu on hover */
+.table:hover .content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #FF5A09;
+}
+/*steve jobs image */
+
+.Himage {
+  display: block;
+  width: 40%;
+  height: 40%;
+  
+}
+.Gimage {
+  display: block;
+  width: 42%;
+  height: 10%;
+  
+}

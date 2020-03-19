@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Customize</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" type="text/css" href="F:\CSS\main.css" /> 
+<link id="pagestyle" rel="stylesheet" type="text/css" href="F:\CSS\main.css"/>
+<!-- Java for stylesheets -->
+<script type="text/javascript">
+function swapStyleSheet(sheet){
+	document.getElementById('pagestyle').setAttribute('href', sheet);
+}
+</script>
+
+
+</head>
+<!-- This is top nav bar, I have java script for open nav bar. Will only implement if I can toggle.   -->
+
+	<div id="Navbar" class="navbar">
+    <a  href="Homepage.html" target="_self"  ><img src="F:\Images\home.jpg" alt="Home" class="Himage"  width="1" height="2"/>home</a>	
+    <a href="Flashcard.html" target="_self"><img src="F:\Images\flash.jpg" alt="Home" class="Himage"  width="1" height="2"/>FlashCard</a>
+    <a href="About.html" target="_self"><img src="F:\Images\question.jpg" alt="Home" class="Himage"  width="1" height="2"/>About</a>
+ <a href="Customize.html" target="_self"><img src="F:\Images\customize.jpg" alt="Home" class="Himage"  width="1" height="2"/>customize</a>
+	</div>
+
+
+
+<body>
+
+	
+
+	
+<!-- Changes will be made, this is to display java script functionality. Java wasn't able to locate css, the paths will be remedied soon  -->
+<!-- On this page I would like to add the ability to add an animation to this task. This would be only the case if I can turn it on an off.  -->
+	<ul><a  onclick="swapStyleSheet('main.css')">Main StyleSheet</a></ul> 
+	<ul><a  onclick="swapStyleSheet('Dyslexia.css')">Dyslexia Friendly</a></ul>
+	<ul><a  onclick="swapStyleSheet('highlighted.css')">Highlighted Text</a></ul>
+	<ul><a  onclick="swapStyleSheet('no.css')">No CSS</a></ul>
+		<!-- once clicked the style sheet should change, this is used using java script.  -->
+	
+
+		
+			
+
+<!-- </div> -->
+</body>
+</html>
